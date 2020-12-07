@@ -32,14 +32,21 @@ h1{
     margin-top: 2rem;;
 }
 
-#login{
-    background-color: rgb(245,143,124);
-    margin: 10%;
-    width: 80%;
-    padding-top: 2rem;
-    padding-bottom: 3rem;;
+#content {
+    display: flex;
 }
 
+#login{
+    background-color: rgb(245,143,124);
+    margin: 5%;
+    width: 40%;
+}
+
+#signup {
+    background-color: #f2c4ce;    
+    margin-left: 5%;
+    width: 40%;
+}
 
 h5 {
     font-size: 20px;
@@ -47,15 +54,10 @@ h5 {
     text-align: center;
 }
 
-
-#emailInput {
+.userInputs {
     padding: 1rem;
 }
 
-#passwordInput {
-    padding: 1rem;
-}
-
-#userSubmit {
+.button {
     margin-top: 1rem;
 }

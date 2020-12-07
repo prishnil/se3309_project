@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Train Travel Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div id = "banner1">
+        <h1>Train Tracker</h1>
+        <img src = > 
+        
+    </div>
+
+    <div id = "navigation">
+        <a href = "/static/routePage/index.html">Routes Information<a>
+        <a href = "/static/stationPage/index.html">Station Information<a>
+        <a href = "/static/pointLevelPage/index.html">Points Information<a>
+        <a href = "/static/ticketPage/index.html">Ticket Information<a>
+        <a href = "/static/transactionPage/index.html">Transaction Information<a></a>
+        <a href = "/static/loginPage/index.html">Login</a>
+    </div>
+    
+    <div id = "landing1">
+        <div id = "welcome">
+            <h2>Welcome to Train Tracker</h2>
+            <h3>The Most Personalized Train Booking Site</h3>
+    </div>
+    
+        <div id = "content">
+            <h5>Transactions</h5>
+            <form id = "transaction">
+                <div id = "transactionIdForm" class = "userInputs">
+                    <label >Transaction ID:</label>
+                    <input name = "transactionId" id = "userTransactionId" required></input>
+                </div>
+               <div id = "emailForm" class = "userInputs">
+                  <label>Email:</label>
+                 <input name = "email"  id = "userEmail" required></input>
+              </div>
+            <div id = "paymentMethodForm" class = "userInputs">
+                <label>Payment Method:</label>
+                <input name = "paymentMethod" id = "userPaymentMethod" required></input>
+             </div>
+            <div id = "dateForm" class = "userInputs">
+                <label>Date:</label>
+                <input name = "date"  id = "userDate" required></input>
+            </div>
+             <div id = "timeForm" class = "userInputs">
+                <label>Time:</label>
+                <input name = "time"  id = "userTime" required></input>
+            </div>
+                <input type = "submit" id = "createTransactionSubmit" onclick = "return false" value = "Create Transaction">
+                <input type = "submit" id = "searchTransactionSubmit" onclick = "return false" value = "Search Specific Transaction">
+                <input type = "submit" id = "searchAllTransactionSubmit" onclick = "return false" value = "Search All Transactions">
+            </form>  
+            
+            <div id = "searchResults">
+                <h3>Display Results</h3>
+                <ul id = "results"></ul>
+            </div>
+        </div>
+
+        
+
+ </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
